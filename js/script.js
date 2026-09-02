@@ -86,6 +86,7 @@ const recommendations = [
 
 const resultsEl = document.getElementById("results");
 const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn");
 const clearBtn = document.getElementById("clearBtn");
 const filterButtons = document.querySelectorAll(".btn-filter");
 
@@ -169,6 +170,13 @@ if (clearBtn) {
 
 if (searchInput) {
   searchInput.addEventListener("input", (e) => searchByName(e.target.value));
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") searchByName(searchInput.value);
+  });
+}
+
+if (searchBtn) {
+  searchBtn.addEventListener("click", () => searchByName(searchInput.value));
 }
 
 // ---------- Mobile nav toggle ----------
