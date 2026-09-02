@@ -31,7 +31,7 @@ const recommendations = [
   {
     type: "temple",
     name: "Angkor Wat, Cambodia",
-    description: "The largest religious monument on earth, best seen as the sandstone towers catch first light.",
+    description: "The largest temple complex on earth, best seen as the sandstone towers catch first light.",
     images: [
       "https://picsum.photos/id/1031/400/300",
       "https://picsum.photos/id/1033/400/300"
@@ -40,7 +40,7 @@ const recommendations = [
   {
     type: "temple",
     name: "Kinkaku-ji, Japan",
-    description: "A gold-leaf pavilion set over a still pond in Kyoto — most striking under a dusting of snow.",
+    description: "A gold-leaf Zen temple pavilion set over a still pond in Kyoto — most striking under a dusting of snow.",
     images: [
       "https://picsum.photos/id/1041/400/300",
       "https://picsum.photos/id/1042/400/300"
@@ -67,7 +67,7 @@ const recommendations = [
   {
     type: "country",
     name: "New Zealand",
-    description: "Glacier, fjord, geyser, and beach within a single day's drive on either island.",
+    description: "A country of glacier, fjord, geyser, and beach within a single day's drive on either island.",
     images: [
       "https://picsum.photos/id/1015/400/300",
       "https://picsum.photos/id/1016/400/300"
@@ -76,7 +76,7 @@ const recommendations = [
   {
     type: "country",
     name: "Morocco",
-    description: "Blue-washed mountain towns, Saharan dunes, and Atlantic surf towns, all a few hours apart.",
+    description: "A country of blue-washed mountain towns, Saharan dunes, and Atlantic surf towns, all a few hours apart.",
     images: [
       "https://picsum.photos/id/1024/400/300",
       "https://picsum.photos/id/1025/400/300"
